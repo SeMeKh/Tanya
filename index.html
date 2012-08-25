@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/underscore.min.js"></script>
+	<script type="text/javascript" src="tanya.js"></script>
+	<script>
+	$(document).ready(function() {
+		typeWrite($("#type"));
+	});
+	</script>
+</head>
+<body>
+	<div>Header-like thing</div>
+	<div id="type">
+		Hello <span class="rm">Word</span>World;<br />
+		This is Tanya, a very simple typewriter. <br />
+		These <i>italic</i> and <b>bold</b> elements are for testing purposes only.<br />
+		I may like to <span data-wait="1000">pause</span> a little bit, and then add an <img src="https://github.com/favicon.png" /> image!<br />
+		This is the initial <span class="rm">thing</span>code, and I'd like to improve it, implementing many new ideas.<br />
+	</div>
+	<div>Footer-like thing</div>
+</body>
+
+</html>
